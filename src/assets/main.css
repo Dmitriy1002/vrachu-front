@@ -1,0 +1,12 @@
+@import './font.css';
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body._lock {
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+}
